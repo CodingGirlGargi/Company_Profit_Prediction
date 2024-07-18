@@ -104,6 +104,7 @@ model_LinearRegression.fit(xTrain, yTrain)
 
 ##########################Lasso Regression################################
 from sklearn.linear_model import Lasso
+#Lasso regression is a regularization technique that applies a penalty to prevent overfitting and enhance the accuracy of statistical models.
 model_lasso = Lasso(alpha = 0.0001)
 model_lasso.fit(xTrain, yTrain)
 pred_test_lasso = model_lasso.predict(xTest)
