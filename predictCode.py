@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 print("Welcome to Profit Predictor")
 print("--------------------------------------------------------------")
-print("Let us Check how mnay Null Values we Have")
+print("Let us Check how many Null Values we Have")
 ##############################################################################
 #############   Data Preprocessing    #########################
 
@@ -49,7 +49,7 @@ plt.show()
 
 print("----------------------------------------")
 print()
-print("Displaying Correlation Matrix between Varioud Factors")
+print("Displaying Correlation Matrix between Various Factors")
 plt.figure(figsize=(8,6))
 floatDB = companies.drop(["State"],axis = 1)
 sns.heatmap(floatDB.corr(),annot=True,cmap='Blues')
